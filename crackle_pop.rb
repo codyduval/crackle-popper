@@ -2,7 +2,7 @@ class CracklePopper
 
   def self.go(range)
     range.each do |num|
-      puts "#{self.crackle_or_pop(num)}"
+      puts "#{crackle_or_pop(num)}"
     end
   end
 
